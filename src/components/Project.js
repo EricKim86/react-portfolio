@@ -1,9 +1,10 @@
-import React from 'react';
+// import React, { useState } from 'react';
+// import Navigation from './Navigation';
 
-export default function Footer() {
+export default function Project() {
   return (
     <div>
-      <h1>Footer</h1>
+      <h1>Project</h1>
       <p>
       Hey
       </p>

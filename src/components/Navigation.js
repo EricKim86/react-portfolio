@@ -3,18 +3,19 @@ import React from 'react';
 const styles = {
   navigation: {
     background: '#344e41',
-    display: 'flex-end',
+    display: 'flex',
+    alignItems: 'flex-end',
     flexWrap: 'wrap',
   },
   link: {
     color: '#dad7cd',
-    fontSize: '36px',
+    fontSize: '28px',
     fontFamily:'Playfair',
     textDecoration: 'underline',
   },
   header: {
     color: '#dad7cd',
-    fontSize: '42px',
+    fontSize: '38px',
   }
 };
 
