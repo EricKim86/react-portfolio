@@ -1,0 +1,12 @@
+.glow:hover {
+  color: #562a8f;
+  text-shadow: 0 0 10px #730d92;
+}
+
+.project:hover {
+  border: 2px solid black;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: .5s ease;
+}

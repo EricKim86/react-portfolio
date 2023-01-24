@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/footer.css';
+import '../styles/hover.css';
 
 const styles = {
   navigation: {
@@ -7,7 +7,8 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     flexWrap: 'wrap',
-    height: '15vh',
+    height: '100%',
+    minHeight: '15vh',
   },
   link: {
     color: '#dad7cd',
