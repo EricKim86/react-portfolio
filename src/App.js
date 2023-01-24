@@ -6,7 +6,8 @@ import Footer from "./components/Footer";
 const styles = {
     body: {
       background: '#dad7cd',
-      height: '100vh',
+      height: '100%',
+      fontFamily: 'Roboto',
     },
 }
 

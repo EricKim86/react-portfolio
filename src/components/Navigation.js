@@ -1,17 +1,19 @@
 import React from 'react';
+import '../styles/footer.css';
 
 const styles = {
   navigation: {
     background: '#344e41',
     display: 'flex',
-    alignItems: 'flex-end',
+    alignItems: 'center',
     flexWrap: 'wrap',
+    height: '15vh',
   },
   link: {
     color: '#dad7cd',
-    fontSize: '28px',
+    fontSize: '24px',
     fontFamily:'Playfair',
-    textDecoration: 'underline',
+    textDecoration: 'none',
   },
   header: {
     color: '#dad7cd',
@@ -24,29 +26,29 @@ function Navigation({ currentPage, handlePageChange }) {
     <div className="container-fluid" style={styles.navigation}>
       <h1 style={styles.header}>Eric Kim</h1>
       <ul className="nav">
-        <li className="nav-item">
+        <li className="nav-item glow">
           <a style={styles.link} href="#About"
             onClick={() => handlePageChange('About')}
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          >About</a>
+          >ABOUT</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item glow">
           <a style={styles.link} href="#Portfolio"
             onClick={() => handlePageChange('Portfolio')}
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-          >Portfolio</a>
+          >PORTFOLIO</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item glow">
           <a style={styles.link} href="#Contact"
             onClick={() => handlePageChange('Contact')}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-          >Contact</a>
+          >CONTACT</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item glow">
           <a style={styles.link} href="#Contact"
             onClick={() => handlePageChange('Resume')}
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-          >Resume</a>
+          >RESUME</a>
         </li>
       </ul>
     </div>

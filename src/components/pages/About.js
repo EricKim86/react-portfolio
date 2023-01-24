@@ -3,12 +3,10 @@ import profileImage from '../../images/profile.png'
 
 const styles = {
   h1: {
-    fontFamily: 'Helvetica',
     fontSize: '28px',
     padding: '10px 50px 0 50px',
   },
   p: {
-    fontFamily: 'Helvetica',
     fontSize: '18px',
     padding: '5px 50px 0 50px',
   },
