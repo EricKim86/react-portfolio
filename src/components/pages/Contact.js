@@ -41,8 +41,8 @@ function Form() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !name) {
-      setErrorMessage('Email is invalid, please enter a valid email!');
+    if (!validateEmail(email) || !name || !message) {
+      setErrorMessage('Name, Email, or Message is invalid!');
       return;
     }
 
