@@ -18,13 +18,13 @@
   Deployed Application:<br/>
 
   About Me:<br/>
-  <img src="https://github.com/EricKim86/react-portfolio/blob/main/Assets/example1.png?raw=true" width="600"/><br/>
+  <img src="https://github.com/EricKim86/react-portfolio/blob/main/src/images/example.png?raw=true" width="600"/><br/>
   Projects:<br/>
-  <img src="https://github.com/EricKim86/react-portfolio/blob/main/Assets/example4.png?raw=true" width="600"/><br/>
+  <img src="https://github.com/EricKim86/react-portfolio/blob/main/src/images/example4.png?raw=true" width="600"/><br/>
   Contact:<br/>
-  <img src="https://github.com/EricKim86/react-portfolio/blob/main/Assets/example2.png?raw=true" width="600"/><br/>
+  <img src="https://github.com/EricKim86/react-portfolio/blob/main/src/images/example2.png?raw=true" width="600"/><br/>
   Resume:<br/>
-  <img src="https://github.com/EricKim86/react-portfolio/blob/main/Assets/example3.png?raw=true" width="600"/><br/>
+  <img src="https://github.com/EricKim86/react-portfolio/blob/main/src/images/example3.png?raw=true" width="600"/><br/>
 
 
   ## Contribute
