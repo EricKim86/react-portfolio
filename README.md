@@ -15,7 +15,7 @@
 
   ## Usage
   GitHub Repository: https://github.com/EricKim86/react-portfoio <br/>
-  Deployed Application:<br/>
+  Deployed Application: https://EricKim86.github.io/react-portfolio<br/>
 
   About Me:<br/>
   <img src="https://github.com/EricKim86/react-portfolio/blob/main/src/images/example.png?raw=true" width="600"/><br/>
