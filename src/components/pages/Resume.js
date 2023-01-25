@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../images/resume.pdf'
 
 const styles = {
   pdf: {
@@ -9,7 +10,7 @@ const styles = {
 export default function Resume() {
   return (
     <div>
-      <object style={styles.pdf} width="100%" height="400" data="http://www.africau.edu/images/default/sample.pdf" type="application/pdf">   </object>
+      <object style={styles.pdf} width="100%" height="400" data={resume} type="application/pdf"></object>
     </div>
   );
 }
