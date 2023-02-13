@@ -67,7 +67,7 @@ export default function About() {
       <div className='container'>
       <h2 style={styles.h2}><i class="fa-solid fa-school"></i> Education</h2>
         <p style={styles.p}>
-         I have a Bachelor of Arts in Music Industry and a Bachelor of Science in Electronic Engineering.  I am currently attending the UPenn bootcamp program for full-stack development.
+         I have a Bachelor of Arts in Music Industry and a Bachelor of Science in Electronic Engineering.  I have a certificate from the University of Pennsylvania in Full Stack Development.
         </p>
         <h2 style={styles.h2}><i class="fas fa-briefcase"></i> Professional Career</h2>
         <p style={styles.p}>
@@ -76,7 +76,7 @@ export default function About() {
           states and had the ability to travel across the country fairly frequently.  I spent a few years in California at the
           corporate office as the Manager of Sales Administration and Retail Support for the entire organization.  As a District
           Manager, I was not only responsible for motivating my direct reports, but also analyzing sales trends to maximize EBITDA
-          and generate incremental revenue.  Through my experience as a District Manager, I became proficient in Excel, specifically with Vlookup, Pivot tables, and VBA & Macros.
+          and generate incremental revenue.  Through my experience as a District Manager, I became proficient in Excel, specifically with Vlookup, Pivot tables, and VBA & Macros.  I am currently pursuing a career in Full Stack development and excited to continue to grow and learn in a new industry.
         </p>
         <h2 style={styles.h2}><i class="fa-solid fa-user"></i> Personal</h2>
         <p style={styles.p}>

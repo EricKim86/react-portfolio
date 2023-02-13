@@ -6,6 +6,7 @@ import project3 from '../../images/project3.png'
 import project4 from '../../images/project4.png'
 import project5 from '../../images/project5.png'
 import project6 from '../../images/project6.png'
+import project7 from '../../images/project7.png'
 
 const styles = {
   image: {
@@ -28,6 +29,18 @@ export default function Portfolio() {
   return (
     <div class="container">
       <div class="row">
+
+      <div class="col ">
+          <div  style={styles.card} class="card project">
+            <img style={styles.image} src={project7} alt='profile' />
+            <div class="card-body">
+              <h5 class="card-title">Dare-Devil-Deals</h5>
+              <p class="card-text">A mock ecommerce/social media hybrid site that was produced in one week.  Users are able to sign an account, browse products in a mock shop, and complete an order. Utilizes React, Bootstrap, Node.js, Express.js, and Stripe for payment verification/processing. </p>
+              <a href="https://github.com/EricKim86/dare-devil-deals" style={styles.btn} class="btn btn-primary" target="blank">GitHub</a>
+              <a href="https://lit-dusk-01074.herokuapp.com/" style={styles.btn} class="btn btn-primary" target="blank">Deployment</a>
+            </div>
+          </div>
+        </div>
 
         <div class="col ">
           <div  style={styles.card} class="card project">
